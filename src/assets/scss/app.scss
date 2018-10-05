@@ -1,0 +1,36 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+
+.main {
+  background: $main-bg;
+
+  h1 {font-weight: bold !important;}
+
+  p {color: $gray;}
+}
+
+.button {
+  text-transform: uppercase !important;
+  font-size: 22px !important;
+}
+
+.operation {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a3a3a3 !important;
+}
+
+.status {
+  font-weight: bold;
+  color : #000000 !important;
+}
+
+.copyright{
+  color: $si-color !important;
+  font-size: 12px !important;
+}
