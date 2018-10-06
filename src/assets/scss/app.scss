@@ -2,32 +2,49 @@
 @import 'foundation-emails';
 
 @import 'template/template';
-
-
-
-.main {
-  background: $main-bg;
-
-  h1 {font-weight: bold !important;}
-}
+@import "template/template-streamity";
 
 .link {color: $gray !important;}
 
+.title-image{
+  padding-bottom: 0 !important;
+}
+
+.main {
+  background-color: $main-bg;
+  font-size: 20pt !important;
+  a {
+    color: #5c5fb0;
+    font-weight: bold;
+  }
+}
+
+.message {
+  color: $gray !important;
+}
+
+.message__anotation {
+  line-height: 1.5;
+}
+.message__questions {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 .button {
   text-transform: uppercase !important;
-  font-size: 22px !important;
+  font-size: 10px !important;
+  letter-spacing: 2px;
 }
 
-.operation {
+.connection{
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.copyright{
+  color: $si-color !important;
   font-size: 12px !important;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #a3a3a3 !important;
-}
-
-.status {
-  font-weight: bold;
-  color : #000000 !important;
 }
 
 .copyright{

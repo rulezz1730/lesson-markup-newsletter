@@ -16,7 +16,7 @@
 //colors
 $color-link: #b4b3b8;
 $main-bg: #ffffff;
-$but-color: #185bcd;
+$but-color: #00b694;
 $circle-color: #cdcdd3;
 $gray: #7c7c7c;
 $si-color: #516579;
@@ -40,7 +40,7 @@ $global-width-small: 95%;
 $global-gutter: 48px;
 $body-background: $light-gray;
 $container-background: transparent;
-$global-padding: 16px;
+$global-padding: 0px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
@@ -62,7 +62,7 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
+$global-font-color: $gray;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
@@ -103,16 +103,16 @@ $stat-font-size: 40px;
 // ---------
 
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+        tiny: 4px 8px 4px 8px,
+        small: 5px 10px 5px 10px,
+        default: 8px 16px 8px 16px,
+        large: 10px 20px 10px 20px,
 );
 $button-font-size: (
-  tiny: 10px,
-  small: 12px,
-  default: 16px,
-  large: 20px,
+        tiny: 10px,
+        small: 12px,
+        default: 14px,
+        large: 20px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
