@@ -1,0 +1,21 @@
+.main {
+  background-color: $main-bg;
+
+  h1 {
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.operation {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.status {
+  color: black;
+  font-weight: bold;
+}
+

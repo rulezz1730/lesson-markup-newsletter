@@ -20,12 +20,12 @@ $but-color: #00b694;
 $circle-color: #cdcdd3;
 $gray: #7c7c7c;
 $si-color: #516579;
-
+$hr: #a3a3a3;
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
-$secondary-color: #777777;
+$primary-color: #1a5ccc;
+$secondary-color: #00b694;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -90,7 +90,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
+$hr-border: 2px solid $hr;
 $hr-margin: 20px auto;
 $anchor-text-decoration: underline;
 $anchor-color: $color-link;
@@ -118,7 +118,7 @@ $button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $but-color;
+$button-background: $primary-color;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
