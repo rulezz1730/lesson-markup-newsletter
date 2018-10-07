@@ -20,7 +20,7 @@ $but-color: #00b694;
 $circle-color: #cdcdd3;
 $gray: #7c7c7c;
 $si-color: #516579;
-$hr: #a3a3a3;
+$color-separator: #a3a3a3;
 // 1. Global
 // ---------
 
@@ -90,7 +90,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 2px solid $hr;
+$hr-border: 2px solid $color-separator;
 $hr-margin: 20px auto;
 $anchor-text-decoration: underline;
 $anchor-color: $color-link;
