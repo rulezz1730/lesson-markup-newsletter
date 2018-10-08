@@ -6,8 +6,14 @@
 @import 'template/streamity-email-help';
 
 
+.header-link {
+  a {
+  color: gray;
+  }
+}
+
 .copyright {
-  color: $si-color;
+  color: $copyright-color;
   font-size: 12px;
 }
 
