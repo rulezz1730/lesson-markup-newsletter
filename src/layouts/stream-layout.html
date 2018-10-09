@@ -21,20 +21,21 @@
                 <container>
                     <spacer size="40px"></spacer>
                     <row class="collapse">
-                        <columns large="9" small="12" valign="middle">
+                        <columns large="6" small="12" >
                             <img  src="assets/img/header-logo.png">
                             <spacer size="15"></spacer>
                         </columns>
-                        <columns style="width: 120px;" large="3" small="3" valign="middle">
-                            <table style=>
-                                <tr>
-                                    <td style="width: 25px"><img src="assets/img/group-2.png"></td>
-                                    <td><a href="https://streamity.org/en/"><p class="text-right">streamity.org</p></a></td>
-                                </tr>
-                            </table>
 
+                        <columns class="header__link" large="6" valign="middle">
+                           <p class="text-right ">
+                               <img width="24" height="20"  class="header__link-img" src="assets/img/group-2.png">
+                            <a class="header__link-text" href="streamity.org">
+                                <span class="header__link-text">streamity.org</span>
+                            </a>
+                           </p>
+                        </columns>
                     </row>
-                    <spacer size="20"></spacer>
+                <spacer size="20"></spacer>
                 </container>
 
                 {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}

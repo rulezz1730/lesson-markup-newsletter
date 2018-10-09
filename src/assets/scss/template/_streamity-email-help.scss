@@ -4,7 +4,7 @@
 
 .main {
   background-color: $main-bg;
-  font-size: 20pt;
+  font-size: 16pt;
   a {
     color: #5c5fb0;
     font-weight: bold;
@@ -24,7 +24,20 @@
   line-height: 1.8;
 }
 
-.connection {
+.connect__text {
   font-size: 13px;
   line-height: 1.8;
 }
+
+.connect {
+  a {align: center;
+    font-size: 14px;
+  }
+}
+.connect__img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  float: initial;
+}
+

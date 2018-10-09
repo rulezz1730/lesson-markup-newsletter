@@ -7,11 +7,16 @@
 @import 'template/streamity-email-crowdsale';
 
 
-.header-link {
-  a {
-  color: gray;
-  }
+
+.header__link-img {
+  display: inline-block;
+  vertical-align: middle;
 }
+
+.header__link-text {
+  color: $gray;
+}
+
 
 .copyright {
   color: $copyright-color;
