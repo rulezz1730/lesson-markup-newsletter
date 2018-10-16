@@ -1,0 +1,29 @@
+.main {
+  background-color: $main-bg;
+  font-size: 20pt;
+}
+
+.title__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  float: initial;
+}
+
+.title__text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0 20px;
+  color: black;
+}
+
+.short-content {
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+
