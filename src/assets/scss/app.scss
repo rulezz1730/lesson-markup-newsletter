@@ -5,9 +5,6 @@
 @import "template/streamdesk-email";
 @import 'template/streamity-email-help';
 @import 'template/streamity-email-crowdsale';
-@import 'template/streamity-email-crowdsale-2';
-
-
 
 .header__link-img {
   display: inline-block;
@@ -18,6 +15,23 @@
   color: $gray;
 }
 
+.main {
+  background-color: $main-bg;
+  font-size: 16pt;
+  h1 {
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.short-content {
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 14px;
+  line-height: 1.5em;
+}
 
 .copyright {
   color: $copyright-color;
